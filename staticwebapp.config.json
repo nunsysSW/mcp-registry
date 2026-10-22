@@ -1,0 +1,16 @@
+{
+  "routes": [
+    { "route": "/v0.1/servers", "rewrite": "/servers.json" },
+    { "route": "/v0.1/servers/", "rewrite": "/servers.json" },
+    { "route": "/v0.1/servers/*", "rewrite": "/server.json" }
+  ],
+  "globalHeaders": {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, OPTIONS",
+    "Access-Control-Allow-Headers": "Authorization, Content-Type",
+    "Cache-Control": "no-cache"
+  },
+  "mimeTypes": {
+    ".json": "application/json"
+  }
+}

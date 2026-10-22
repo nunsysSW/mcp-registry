@@ -1,0 +1,23 @@
+{
+  "server": {
+    "name": "com.nunsys/figma",
+    "title": "Figma",
+    "description": "Servidor MCP remoto oficial de Figma (autorizado por Nunsys)",
+    "version": "1.0.0",
+    "websiteUrl": "https://help.figma.com/hc/en-us/articles/32132100833559",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.figma.com/mcp"
+      }
+    ]
+  },
+  "_meta": {
+    "io.modelcontextprotocol.registry/official": {
+      "status": "active",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "updatedAt": "2026-10-22T00:00:00Z",
+      "isLatest": true
+    }
+  }
+}
