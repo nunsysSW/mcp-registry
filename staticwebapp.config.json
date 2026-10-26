@@ -1,7 +1,6 @@
 {
   "routes": [
     { "route": "/v0.1/servers", "rewrite": "/servers.json" },
-    { "route": "/v0.1/servers/", "rewrite": "/servers.json" },
     { "route": "/v0.1/servers/*", "rewrite": "/server.json" }
   ],
   "globalHeaders": {
