@@ -1,0 +1,23 @@
+{
+  "server": {
+    "name": "com.nunsys.azuredevops/mcp",
+    "title": "Azure DevOps",
+    "description": "Servidor MCP remoto de Azure DevOps para la organización nunsysSW (autorizado por Nunsys)",
+    "version": "1.0.0",
+    "websiteUrl": "https://learn.microsoft.com/en-us/azure/devops/mcp-server/remote-mcp-server",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.dev.azure.com/nunsysSW"
+      }
+    ]
+  },
+  "_meta": {
+    "io.modelcontextprotocol.registry/official": {
+      "status": "active",
+      "publishedAt": "2026-10-26T00:00:00Z",
+      "updatedAt": "2026-10-26T00:00:00Z",
+      "isLatest": true
+    }
+  }
+}

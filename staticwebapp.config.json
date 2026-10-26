@@ -1,7 +1,17 @@
 {
   "routes": [
-    { "route": "/v0.1/servers", "rewrite": "/servers.json" },
-    { "route": "/v0.1/servers/*", "rewrite": "/server.json" }
+    {
+      "route": "/v0.1/servers",
+      "rewrite": "/servers.json"
+    },
+    {
+      "route": "/v0.1/servers/com.nunsys.figma*",
+      "rewrite": "/figma.json"
+    },
+    {
+      "route": "/v0.1/servers/com.nunsys.azuredevops*",
+      "rewrite": "/azure-devops.json"
+    }
   ],
   "globalHeaders": {
     "Access-Control-Allow-Origin": "*",

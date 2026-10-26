@@ -2,7 +2,7 @@
   "servers": [
     {
       "server": {
-        "name": "com.nunsys/figma",
+        "name": "com.nunsys.figma/mcp",
         "title": "Figma",
         "description": "Servidor MCP remoto oficial de Figma (autorizado por Nunsys)",
         "version": "1.0.0",
@@ -17,14 +17,37 @@
       "_meta": {
         "io.modelcontextprotocol.registry/official": {
           "status": "active",
-          "publishedAt": "2026-10-22T00:00:00Z",
-          "updatedAt": "2026-10-22T00:00:00Z",
+          "publishedAt": "2026-10-26T00:00:00Z",
+          "updatedAt": "2026-10-26T00:00:00Z",
+          "isLatest": true
+        }
+      }
+    },
+    {
+      "server": {
+        "name": "com.nunsys.azuredevops/mcp",
+        "title": "Azure DevOps",
+        "description": "Servidor MCP remoto de Azure DevOps para la organización nunsysSW (autorizado por Nunsys)",
+        "version": "1.0.0",
+        "websiteUrl": "https://learn.microsoft.com/en-us/azure/devops/mcp-server/remote-mcp-server",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://mcp.dev.azure.com/nunsysSW"
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "status": "active",
+          "publishedAt": "2026-10-26T00:00:00Z",
+          "updatedAt": "2026-10-26T00:00:00Z",
           "isLatest": true
         }
       }
     }
   ],
   "metadata": {
-    "count": 1
+    "count": 2
   }
 }
